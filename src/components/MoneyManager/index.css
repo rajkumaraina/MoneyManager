@@ -1,0 +1,127 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.secondContainer {
+  width: 70%;
+  margin: 50px;
+}
+.nameContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 125px;
+  background-size: cover;
+  border-radius: 14px;
+  display: flex;
+  padding-left: 40px;
+  flex-direction: column;
+  justify-content: center;
+}
+.nameHeading {
+  color: #000000;
+  margin: 0;
+}
+.welcomePara {
+  color: #475569;
+}
+.spanElement {
+  color: #0b69ff;
+}
+.unorderedMoneyDetails {
+  padding-left: 0;
+  margin-bottom: 35px;
+}
+.bottomContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.inputContainer {
+  border: 1px solid #475569;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  border-radius: 8px;
+  height: 380px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.addTransaction {
+  color: #000000;
+  font-size: 19px;
+  margin-bottom: 18px;
+}
+.inputElements {
+  padding: 8px;
+  width: 200px;
+  margin-bottom: 18px;
+}
+.labels {
+  color: #7e858e;
+  margin: 0;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.options {
+  padding: 8px;
+  width: 200px;
+  margin-bottom: 18px;
+}
+.formelement {
+  display: flex;
+  flex-direction: column;
+}
+.AddButton {
+  width: 65px;
+  height: 35px;
+  border-radius: 8px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: 0 none;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+.transactionContainer {
+  border: 1px solid #475569;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  border-radius: 8px;
+  height: 380px;
+  padding-left: 30px;
+  padding-top: 20px;
+  margin-left: 10px;
+}
+.history {
+  color: #000000;
+}
+.borderForHistory {
+  display: flex;
+  border: 1px solid #475569;
+  width: 90%;
+}
+.historyDetailsTitle {
+  color: #000000;
+  margin-left: 18px;
+  margin-right: 60px;
+  font-weight: bold;
+  width: 18%;
+}
+.historyDetailsAmount {
+  color: #000000;
+  margin-left: 8px;
+  margin-right: 45px;
+  font-weight: bold;
+  width: 15%;
+}
+.historyDetailsType {
+  color: #000000;
+  margin-left: 8px;
+  margin-right: 25px;
+  font-weight: bold;
+  width: 15%;
+}

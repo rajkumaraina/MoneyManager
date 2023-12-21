@@ -1,0 +1,34 @@
+.borderForHistory1 {
+  display: flex;
+  border: 1px solid #475569;
+  width: 90%;
+  border-top: 0;
+}
+.historyDetailsTitleItem {
+  color: #000000;
+  margin-left: 18px;
+  margin-right: 60px;
+  width: 18%;
+}
+.historyDetailsAmountItem {
+  color: #000000;
+  margin-left: 8px;
+  margin-right: 45px;
+  width: 15%;
+}
+.historyDetailsTypeItem {
+  color: #000000;
+  margin-left: 8px;
+  margin-right: 25px;
+  width: 18%;
+}
+.deleteImg {
+  width: 25px;
+  height: 25px;
+}
+.Deletebutton {
+  background-color: transparent;
+  border: 0 none;
+  outline: none;
+  cursor: pointer;
+}

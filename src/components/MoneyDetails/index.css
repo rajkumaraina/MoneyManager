@@ -1,0 +1,56 @@
+.moneyDetailsList {
+  list-style-type: none;
+}
+.moneyDetailsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px;
+}
+.listItems1 {
+  background-color: #ecfccb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 90px;
+  border-radius: 8px;
+  border: 1px solid #475569;
+}
+.listItems2 {
+  background-color: #cffafe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 90px;
+  border-radius: 8px;
+  border: 1px solid #475569;
+}
+.listItems3 {
+  background-color: #ede9fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 90px;
+  border-radius: 8px;
+  border: 1px solid #475569;
+}
+.MoneyDetailsItemImg {
+  width: 55px;
+  height: 55px;
+  margin-right: 12px;
+}
+.rupeesContainer {
+  margin-left: 8px;
+}
+.MoneyDetailPara {
+  color: #475569;
+  margin: 0;
+  margin-bottom: 8px;
+}
+.moneyDetailMoney {
+  color: #000000;
+  font-size: 20px;
+  margin: 0;
+}
